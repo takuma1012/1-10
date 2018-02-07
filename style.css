@@ -1,0 +1,549 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.clearfix::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F
+}
+.header-box{
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+}
+.header-image{
+	height: 100%;
+	float: left;
+}
+.menu-icon{
+	display: none;
+}
+.nav-list{
+	width: 512px;
+	height: 100%;
+	float: right;
+}
+.nav-list-item{
+	line-height: 70px;
+	float: left;
+	list-style: none;
+	display: inline-block;
+	font-size: 16px;
+	color: #FAFAFA;
+	padding: 0 30px;
+}
+
+.main-visual{
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: cover;
+	background-position: center;
+	}
+.main-visual-text-l{
+	text-align: center;
+	font-size: 64px;
+	color: #FAFAFA;
+	padding: 200px 0 10px 0;
+}
+.main-visual-text-s{
+	text-align: center;
+	font-size: 20px;
+	color: #FAFAFA;
+}
+
+.portfolio{
+	width: 100%;
+	background-color: #ECEFF1;
+	padding: 90px 0;
+}
+.port-big-box{
+	width: 920px;
+	margin: 0 auto;
+}
+.port-main-text{
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+}
+.under-line{
+	margin: 0 auto;
+	width: 70px;
+	padding-top: 8px;
+	border-bottom: 3px solid #EC715F;
+}
+.port-text{
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+}
+.port-box{
+	display: inline-block;
+	float: center;
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+}
+.port-content .port-box:nth-child(1){
+	background-image: url(img/sketch.jpg);
+}
+.port-content .port-box:nth-child(2){
+	background-image: url(img/websuku.png);
+}
+.port-content .port-box:nth-child(3){
+	background-image: url(img/write.jpg);
+}
+.port-content .port-box:nth-child(4){
+	background-image: url(img/webcamp.png);
+}
+.port-content .port-box:nth-child(5){
+	background-image: url(img/talk.jpg);
+}
+.port-content .port-box:nth-child(6){
+	background-image: url(img/webcamp-mother.png);
+}
+
+.feature{
+	width: 100%;
+	padding: 90px 0;
+}
+.feature-box1{
+	width: 980px;
+	margin: 0 auto;
+}
+.feature-main-text{
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+}
+.feature-text{
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.ft-boxes{
+	width: 980px;
+	margin: auto;
+}
+.feature-box2, .feature-box3, .feature-box4{
+	display: inline-block;
+	float: center;
+	width: 320px;
+	height: auto;
+}
+.feature-box3{
+	padding: 10px 0;
+}
+.icon-box{
+	text-align: center;
+	font-size: 60px;
+	margin: 0 auto;
+}
+.strength1{
+	text-align: center;
+	font-size: 20px;
+	color: #000000;
+	padding: 10px 0;
+}
+.St1-text{
+	font-size: 16px;
+	color: #000000;
+}
+.strength2{
+	text-align: center;
+	font-size: 20px;
+	color: #000000;
+	padding: 10px 0;
+}
+.St2-text{
+	font-size: 16px;
+	color: #000000;
+}
+.strength3{
+	text-align: center;
+	font-size: 20px;
+	color: #000000;
+	padding: 10px 0;
+}
+.St3-text{
+	font-size: 16px;
+	color: #000000;
+}
+
+.Profile{
+	width: 100%;
+	background-color: #ECEFF1;
+	padding: 90px 0;
+}
+.profile-box{
+	width: 1024px;
+	margin: 0 auto;
+}
+.profile-main{
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+}
+.profile-text{
+	text-align: center;
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+}
+.prof-icon-box{
+	margin: 0 auto;
+	width: 512px;
+	float: left;
+}
+.prof-icon{
+	margin: 0 auto;
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	background-image: url(img/my-icon.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.mybox{
+	float: right;
+	width: 512px;
+}
+.myname-main{
+	text-align: left;
+	font-size: 20px;
+	color: #000000;
+	padding-bottom: 5px;
+}
+.myname-text{
+	font-size: 16px;
+	color: #000000;
+	padding-bottom: 8px;
+}
+.myskills-main{
+	text-align: left;
+	font-size: 20px;
+	color: #000000;
+	padding-bottom: 5px;
+}
+.myskills-text{
+	font-size: 16px;
+	color: #000000;
+}
+
+.contact{
+	width: 100%;
+	padding: 90px 0;
+}
+.contact-box{
+	width: 800px;
+	margin: 0 auto;
+}
+.contact-main{
+	text-align: center;
+	font-size: 32px;
+	color: #000000;
+}
+.contact-text{
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+	text-align: center;
+}
+.contact-box-content{
+	width: 800px;
+}
+.contact-box2{
+	width: 400px;
+	float: left;
+}
+.mail-tell-box{
+	float: right;
+	width: 200px;
+}
+.mail-main {
+	text-align: left;
+	font-size: 20px;
+	color: #000000;
+	padding-bottom: 5px;
+}
+.mail{
+	text-align: left;
+	font-size: 16px;
+	text-decoration: underline;
+}
+.tell-main{
+	text-align: left;
+	font-size: 20px;
+	color: #000000;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+.tell{
+	text-align: left;
+	font-size: 16px;
+	color: #000000;
+	text-decoration: underline;
+}
+.contact-box3{
+	text-align: center;
+	float: right;
+	width: 400px;
+}
+.sns{
+	text-align: center;
+	font-size: 20px;
+	padding-right: 30%;
+	padding-bottom: 5px;
+}
+.social-fb, .social-tw, .social-ig{
+	float: center;
+	display: inline-block;
+	font-size: 50px;
+}
+.social-tw{
+	padding: 0 20px;
+}
+
+footer{
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F;
+}
+.footer-text{
+	text-align: center;
+	font-size: 16px;
+	color: #FAFAFA;
+	line-height: 60px;
+}
+
+@media screen and (max-width: 768px){
+	header{
+		width:100%;
+		height: 50px;
+		margin: 0 auto;
+	}
+	.header-box{
+		display: none
+		height: 50px;
+		width: 100%;
+		padding: 0 5px;
+	}
+	.header-image{
+		float: none;
+		padding-left: 20px;
+		line-height: 50px;
+	}
+	.menu-icon{
+		color: white;
+		float: right;
+		width:44px;
+		height: 44px;
+		text-align: center;
+		font-size: 30px;
+		display: block;
+		margin: 3px 8px 3px 0;
+		border: 1px solid white;
+	}
+	.nav-list{
+		display: none;
+	}
+
+	.main-visual{
+		width: 100%;
+		height: 750px;
+		background-image: url(img/code.png);
+		background-size: cover;
+		background-position: center;
+	}
+	.main-visual-text-l{
+		font-size: 40px;
+		color: #FAFAFA;
+		text-align: center;
+		padding-top: 200px;
+		padding-bottom: 10px;
+	}
+	.main-visual-text-s{
+		font-size: 18px;
+		color: #FAFAFA;
+	}
+
+	.portfolio{
+		width: 100%;
+		padding: 90px 5% 30px 5%;
+	}
+	.port-big-box{
+		text-align: center;
+		width: 100%;
+		padding: 0 5%;
+	}
+	.port-box{
+		float: none;
+		width: 300px;
+		height: 250px;
+		padding-bottom: 10px;
+	}
+	.port-main-text {
+		font-size: 32px;
+		color: #000000;
+		width: 100%;
+	}
+	.port-text{
+		font-size: 16px;
+		color: #000000;
+		width: 100%;
+		padding: 30px 0;
+	}
+	.port-content{
+		width: 100%;
+		padding: 0 5%;
+	}
+	.port-content .port-box:nth-child(1){
+		background-image: url(img/sketch.jpg);
+		display: none;
+	}
+	.port-content .port-box:nth-child(3){
+		background-image: url(img/write.jpg);
+		display: none;
+	}
+	.port-content .port-box:nth-child(5){
+		background-image: url(img/talk.jpg);
+		display: none;
+	}
+
+	.feature{
+		width: 100%;
+	}
+	.feature-box1{
+		width: 100%;
+	}
+	.feature-main-text{
+		font-size: 32px;
+		color: #000000;
+	}
+	.feature-text{
+		font-size: 16px;
+		color: #000000;
+		padding: 30px 5%;
+	}
+	.ft-boxes{
+		width: 100%;
+	}
+	.feature-box2, .feature-box3, .feature-box4{
+		width: 100%;
+		float: none;
+	}
+	.St1-text, .St2-text, .St3-text{
+		width: 320px;
+		height: auto;
+		padding: 0 5%;
+		margin: 0 auto;
+	}
+
+	.profile{
+		width: 100%;
+		padding: 90px 0;
+	}
+	.profile-box{
+		width: 100%;
+	}
+	.profile-main{
+		font-size: 32px;
+		color: #000000;
+		width: 100%;
+	}
+	.prof-icon-box{
+		width: 100%;
+		float: none;
+	}
+	.mybox{
+		width: 100%;
+		float: none;
+	}
+	.myname-main{
+		width: 100%;
+		text-align: center;
+		padding-top: 20px;
+	}
+	.myname-text{
+		width: 100%;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.myskills-main{
+		width: 100%;
+		text-align: center;
+	}
+	.myskills-text{
+		width: 100%;
+		text-align: center;
+	}
+
+	.contact-box{
+		width: 100%;
+		height: auto;
+	}
+	.contact-main{
+		width: 100%;
+		height: auto;
+		padding: 0 5%;
+	}
+	.contact-box-content{
+		width: 100%;
+		padding: 0 5%;
+	}
+	.contact-box2{
+		width: 100%;
+		float: none;
+	}
+	.contact-box3{
+		width: 100%;
+		float: none;
+		padding-top: 20px;
+	}
+	.mail-tell-box{
+		text-align: center;
+		width: 100%;
+		float: none;
+	}
+	.mail-main{
+		width: 100%;
+		text-align: center;
+	}
+	.mail{
+		width: 100%;
+		text-align: center;
+	}
+	.tell-main{
+		width: 100%;
+		text-align: center;
+	}
+	.tell{
+		width: 100%;
+		text-align: center;
+	}
+	.sns{
+		text-align: center;
+		padding: 0;
+	}
+	.social-box{
+		padding-top: 5px;
+	}
+	.social-fb, .social-tw, .social-ig{
+		font-size: 50px;
+	}
+	.social-tw{
+		padding: 0 8px;
+	}
+}
