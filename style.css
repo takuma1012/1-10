@@ -94,22 +94,31 @@ header{
 	background-size: cover;
 	background-position: center;
 }
-.port-content .port-box:nth-child(1){
+.port-content{
+	text-align: center;
+	width: 980px;
+}
+.port-box:nth-child(1){
 	background-image: url(img/sketch.jpg);
+	margin-bottom: 10px;
 }
-.port-content .port-box:nth-child(2){
+.port-box:nth-child(2){
 	background-image: url(img/websuku.png);
+	margin: 0 10px;
+	margin-bottom: 10px;
 }
-.port-content .port-box:nth-child(3){
+.port-box:nth-child(3){
 	background-image: url(img/write.jpg);
+	margin-bottom: 10px;
 }
-.port-content .port-box:nth-child(4){
+.port-box:nth-child(4){
 	background-image: url(img/webcamp.png);
 }
-.port-content .port-box:nth-child(5){
+.port-box:nth-child(5){
 	background-image: url(img/talk.jpg);
+	margin: 0 10px;
 }
-.port-content .port-box:nth-child(6){
+.port-box:nth-child(6){
 	background-image: url(img/webcamp-mother.png);
 }
 
@@ -160,6 +169,7 @@ header{
 .St1-text{
 	font-size: 16px;
 	color: #000000;
+	padding: 0 10px;
 }
 .strength2{
 	text-align: center;
@@ -170,6 +180,7 @@ header{
 .St2-text{
 	font-size: 16px;
 	color: #000000;
+	padding: 0 10px;
 }
 .strength3{
 	text-align: center;
@@ -180,6 +191,7 @@ header{
 .St3-text{
 	font-size: 16px;
 	color: #000000;
+	padding: 0 10px;
 }
 
 .Profile{
@@ -335,8 +347,8 @@ footer{
 		margin: 0 auto;
 	}
 	.header-box{
-		display: none
-		height: 50px;
+/*		display: none;
+*/		height: 50px;
 		width: 100%;
 		padding: 0 5px;
 	}
@@ -380,13 +392,13 @@ footer{
 	}
 
 	.portfolio{
-		width: 100%;
-		padding: 90px 5% 30px 5%;
+		width: 90%;
+		padding: 90px 0 30px 0;
+		margin: 0 auto;
 	}
 	.port-big-box{
 		text-align: center;
 		width: 100%;
-		padding: 0 5%;
 	}
 	.port-box{
 		float: none;
@@ -407,7 +419,6 @@ footer{
 	}
 	.port-content{
 		width: 100%;
-		padding: 0 5%;
 	}
 	.port-content .port-box:nth-child(1){
 		background-image: url(img/sketch.jpg);
@@ -423,7 +434,8 @@ footer{
 	}
 
 	.feature{
-		width: 100%;
+		width: 90%;
+		margin: 0 auto;
 	}
 	.feature-box1{
 		width: 100%;
@@ -435,7 +447,7 @@ footer{
 	.feature-text{
 		font-size: 16px;
 		color: #000000;
-		padding: 30px 5%;
+		padding: 30px 0;
 	}
 	.ft-boxes{
 		width: 100%;
@@ -444,16 +456,19 @@ footer{
 		width: 100%;
 		float: none;
 	}
+	.strength1, .strength2, .strength3{
+		padding: 10px 0;
+	}
 	.St1-text, .St2-text, .St3-text{
 		width: 320px;
 		height: auto;
-		padding: 0 5%;
 		margin: 0 auto;
 	}
 
-	.profile{
-		width: 100%;
+	.Profile{
+		width: 90%;
 		padding: 90px 0;
+		margin: 0 auto;
 	}
 	.profile-box{
 		width: 100%;
@@ -490,6 +505,10 @@ footer{
 		text-align: center;
 	}
 
+	.contact{
+		width: 90%;
+		margin: 0 auto;
+	}
 	.contact-box{
 		width: 100%;
 		height: auto;
@@ -497,7 +516,6 @@ footer{
 	.contact-main{
 		width: 100%;
 		height: auto;
-		padding: 0 5%;
 	}
 	.contact-box-content{
 		width: 100%;
